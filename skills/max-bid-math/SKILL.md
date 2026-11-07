@@ -7,14 +7,14 @@ description: Work out the most a reseller should pay or bid for an item or lot u
 
 Flip does cost math and keeps records. It does not find deals. Use only numbers the user gives you.
 
-Tool names in this file are placeholders until the server is final: `calculate_max_bid`, `save_search`, `list_saved_searches`, `update_saved_search`, `record_item_decision`. If the connected Flip server names them differently, use its names.
+Flip's tools used here: `flip_calculate_pay_up_to`, `flip_create_saved_search`, `flip_list_saved_searches`, `flip_update_saved_search`, `flip_record_shortlist_decision`. If the connected server lists different names, use its names.
 
 ## When to use which tool
 
-- User wants a pay-up-to or max-bid price: call `calculate_max_bid`.
-- User wants to save a search (keywords, budget, location radius, pickup or shipping): call `save_search`.
-- User wants to change a saved search: call `list_saved_searches` if you need the ID, then `update_saved_search`.
-- User says keep or let go on a shortlisted item: call `record_item_decision`, then report the budget left.
+- User wants a pay-up-to or max-bid price: call `flip_calculate_pay_up_to`.
+- User wants to save a search (keywords, budget, location radius, pickup or shipping): call `flip_create_saved_search`.
+- User wants to change a saved search: call `flip_list_saved_searches` if you need the ID, then `flip_update_saved_search`.
+- User says keep or let go on a shortlisted item: call `flip_record_shortlist_decision`, then report the budget left.
 
 ## Gather the inputs, one at a time
 
