@@ -1,0 +1,31 @@
+{
+  "name": "flip-for-resellers",
+  "displayName": "Flip for Resellers",
+  "version": "1.0.0",
+  "description": "Work out the most to pay for a lot after selling fees, buyer's premium, sales tax, shipping, packing and your target profit, with every cost shown. Save searches, record keep or let-go picks and purchases, and draft listings you copy into eBay yourself. Flip never bids, buys, posts or scrapes.",
+  "author": {
+    "name": "Flip for Resellers",
+    "url": "https://flip.roshi.world"
+  },
+  "homepage": "https://flip.roshi.world",
+  "license": "MIT",
+  "keywords": [
+    "reselling",
+    "estate sales",
+    "auctions",
+    "ebay",
+    "max bid",
+    "flipping"
+  ],
+  "documentationUrl": "https://flip.roshi.world/support",
+  "supportUrl": "https://flip.roshi.world/support",
+  "privacyPolicyUrl": "https://flip.roshi.world/privacy",
+  "termsOfServiceUrl": "https://flip.roshi.world/terms",
+  "repository": "https://github.com/Saobestboy/flip-claude-plugin",
+  "mcpServers": {
+    "flip": {
+      "type": "http",
+      "url": "https://flip.roshi.world/mcp"
+    }
+  }
+}
